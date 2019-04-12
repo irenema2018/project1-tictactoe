@@ -50,11 +50,11 @@ In this game, you will not see "x" and "o" directly. They are the value behind t
 
 Note: The name of a custom data attribute in JavaScript is the name of the same HTML attribute but in camelCase and with no dashes, dots, etc.
 
-** Tip: **
+**Tip:**
 1. Transfer an image to an URL by website: imgur.com
 2. Download image with transparent background so that it can be displayed perfectly without ruin the previous background. See diamond swoard and bow and arrow.
 
-** Reference: ** 
+**Reference:** 
 https://fontmeme.com/minecraft-font/
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
 https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes
