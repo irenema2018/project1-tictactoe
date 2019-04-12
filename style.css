@@ -1,38 +1,29 @@
-body {
-  /* display:flex;
-  flex-direction: column; */
-  /* width: 100%; */
- 
+body { 
   background-image: url(https://i.imgur.com/tNuBZZk.jpg);
-  /* background-size: cover; */
-  
-}
-
-a {
-  display:flex;
-  justify-content: center;
-  margin: 50px;
-}
-
-.greensword {
-  width: 90%;
-}
-
-.whitesword {
-  width: 90%;
 }
 
 #container {
+  display:flex;
+  flex-direction: column;
+}
+
+#gamename{
+  margin: 50px 0;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#tic-tac-toe {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.tic-tac-toe {
+#board {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* align-content: center; */
   width: 480px;
   margin: 40px 80px;
   
@@ -48,9 +39,15 @@ a {
   margin:2px;
   background-image: url(https://i.imgur.com/SCHnfYI.jpg?1);
   border-radius: 5px;
-  
 }
 
+.greensword {
+  width: 90%;
+}
+
+.whitesword {
+  width: 90%;
+}
 
 #reset-btn {
   width: 100px;

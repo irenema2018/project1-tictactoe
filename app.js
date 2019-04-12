@@ -62,8 +62,6 @@ var gameOver = false;
     gameOver = true;
   }
 
-
-
   if (cell31.dataset.token != '' && cell31.dataset.token == cell32.dataset.token && cell32.dataset.token == cell33.dataset.token) {
     cell31.classList.add('flash');
     cell32.classList.add('flash');
@@ -128,7 +126,7 @@ var handleClick = function(event) {
 
   
   if (player1) {
-    event.target.innerHTML = "<img class='greensword' src='https://i.imgur.com/ZQmaQV4.png' />";
+    event.target.innerHTML = "<img class='greensword' src='https://i.imgur.com/ZQmaQV4.png'/>";
     event.target.dataset.token = "x";
     if (checkWinner()) {
       return;

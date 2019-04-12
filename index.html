@@ -6,49 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <title>tic tac toe</title>
-  <style>
-    body {
-      display:flex;
-      flex-direction: column;
-      width: 100%;
-    }
-  
-    
-  </style>
-
-
-
 </head>
+
 <body>
-  <a href="https://fontmeme.com/minecraft-font/"><img src="https://fontmeme.com/permalink/190411/418f40c940596af57d198f9fdb581d61.png" alt="minecraft-font" border="0"></a>
-
-   <div id="container">
-    <div class="tic-tac-toe">
-      <div class="cell" id="cell11" data-token=''></div>
-      <div class="cell" id="cell12" data-token=''></div>
-      <div class="cell" id="cell13" data-token=''></div>
-
-      <div class="cell" id="cell21" data-token=''></div>
-      <div class="cell" id="cell22" data-token=''></div>
-      <div class="cell" id="cell23" data-token=''></div>
-
-      <div class="cell" id="cell31" data-token=''></div>
-      <div class="cell" id="cell32" data-token=''></div>
-      <div class="cell" id="cell33" data-token=''></div>
+  
+  <div id="container">
+    <div id="gamename">
+      <img src="https://fontmeme.com/permalink/190411/418f40c940596af57d198f9fdb581d61.png" alt="minecraft-font" border="0">
     </div>
-  
+    
+    <div id="tic-tac-toe">
+      <div id="board">
+        <div class="cell" id="cell11" data-token=''></div>
+        <div class="cell" id="cell12" data-token=''></div>
+        <div class="cell" id="cell13" data-token=''></div>
 
-    <aside class="buttons">
-      <p><button type="reset" id="reset-btn">Reset</button></p>
+        <div class="cell" id="cell21" data-token=''></div>
+        <div class="cell" id="cell22" data-token=''></div>
+        <div class="cell" id="cell23" data-token=''></div>
 
-      <!-- <div class="alert"> 
-        <span class="closebtn" onclick="">&times;</span> 
-        You are the winner!
-      </div> -->
-  
-    </aside>
+        <div class="cell" id="cell31" data-token=''></div>
+        <div class="cell" id="cell32" data-token=''></div>
+        <div class="cell" id="cell33" data-token=''></div>
+      </div>
+      
+      <aside class="buttons">
+        <p><button type="reset" id="reset-btn">Reset</button></p>
+      </aside>
+    </div>
   </div>  
-
+</div>
   <script src="app.js"></script>
-  </body>
+</body>
 </html>
