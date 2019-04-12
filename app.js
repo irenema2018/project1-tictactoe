@@ -37,6 +37,16 @@ var handleReset = function() {
   cell31.dataset.token = '';
   cell32.dataset.token = '';
   cell33.dataset.token = '';
+
+  cell11.classList.remove('flash');
+  cell12.classList.remove('flash');
+  cell13.classList.remove('flash');
+  cell21.classList.remove('flash');
+  cell22.classList.remove('flash');
+  cell23.classList.remove('flash');
+  cell31.classList.remove('flash');
+  cell32.classList.remove('flash');
+  cell33.classList.remove('flash');
 }
 
 
