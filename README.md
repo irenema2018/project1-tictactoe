@@ -38,21 +38,25 @@ Example:
 2. Use checkWinner function to determine the winning condition.
 3. Use data attribute to check for winner.
 
-This access is available both in HTML and within the DOM. The dataset property on the HTML Element interface provides read/write access to all the custom data attributes (data-*) set on the element.  The dataset property itself can be read, but not directly written.  Instead, all writes must be to the individual properties within the dataset, which in turn represent the data attributes.   Note also that an HTML data-attribute and its corresponding DOM dataset.property do not share the same name, but they are always similar.
+Date attribute can be accessed in both HTML and within the DOM. The dataset property on the HTML Element interface provides read/write access to all the custom data attributes (data-*) set on the element.  The dataset property itself can be read, but not directly written.  Instead, all writes must be to the individual properties within the dataset, which in turn represent the data attributes. 
 
 Example:
 ```
+//HTML
+<div class="cell" id="cell11" data-token=''></div>
+
+//JavaScript
 event.target.dataset.token = "x";
 event.target.dataset.token = "o";
+
 ```
 
-In this game, you will not see "x" and "o" directly. They are the value behind the scence. It can be used like variable to store data and it is easy to check if the winning condition is true.
+In this game, you will not see "x" and "o" directly. They are set behind the scence. Date attributes can be used like variables for storing data and it is easy to check if the winning condition is true.
 
 Note: The name of a custom data attribute in JavaScript is the name of the same HTML attribute but in camelCase and with no dashes, dots, etc.
 
-**Tip:**
-1. Transfer an image to an URL by website: imgur.com
-2. Download image with transparent background so that it can be displayed perfectly without ruin the previous background. See diamond swoard and bow and arrow.
+**Tips:**
+Use images with transparent background so that it can be displayed perfectly without ruin the previous background. See diamond swoard and bow and arrow. 
 
 **Reference:** 
 https://fontmeme.com/minecraft-font/
