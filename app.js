@@ -158,5 +158,4 @@ cell33.addEventListener('click', handleClick);
 resetbtn.addEventListener('click', handleReset);
 
 
-// reference: https://fontmeme.com/minecraft-font/
-// imgur.com
+
